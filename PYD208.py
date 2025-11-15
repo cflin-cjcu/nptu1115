@@ -1,3 +1,4 @@
 n = eval(input())
-print(hex(n)[-1].upper())
+# print(hex(n)[-1].upper())
 # TODO
+print(f"{n:X}")
