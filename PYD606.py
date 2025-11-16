@@ -1,7 +1,7 @@
 # TODO
 
 def compute(r: int, c:int):
-    a = [ [f"{j-i:4d}" for j in range(c)] for i in range(r)]
+    a = [ [f"{j-i:>4}" for j in range(c)] for i in range(r)]
 
     for i in a:
         print(*i)
